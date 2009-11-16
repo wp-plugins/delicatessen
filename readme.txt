@@ -57,6 +57,14 @@ Because delicious doesn't provide that data. They only show up to the latest 100
 
 == Changelog ==
 
+= 2.0.2 =
+
+Being a bit more user friendly when there are no bookmarks yet.
+
+= 2.0.1 =
+
+Added missing screenshots
+
 = 2.0 =
 * Totally revamped version, net friendly and all that.
 

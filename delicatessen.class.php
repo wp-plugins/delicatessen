@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Delicatessen
-Version: 2.0
+Version: 2.0.2
 Plugin URI: http://soledadpenades.com/projects/wordpress/delicatessen
 Author: Soledad Penadés
 Author URI: http://soledadpenades.com
@@ -198,6 +198,12 @@ class Delicatessen
 			{
 				$cached_ids[] = $match[1];
 			}
+		}
+
+		if(count($cached_ids) == 0)
+		{
+			$this->outputPage('Delicatessen', 'No bookmarks have been found yet, sorry.');
+			return;
 		}
 
 		$cached_ids_str = join(',', $cached_ids);
